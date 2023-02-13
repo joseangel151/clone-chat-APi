@@ -1,3 +1,4 @@
+require('dotenv').config()
 
 const configs = {
     api: {
@@ -12,7 +13,7 @@ const configs = {
             host: 'localhost',
             port: 5432,
             username: 'postgres',
-            password: 'root',
+            password: '1234',
             database: 'chat-db',
             define: {
                 timestamps: true, //? Nos obliga a que todas las tablas tengan la propiedad createdAt y upadtedAt
